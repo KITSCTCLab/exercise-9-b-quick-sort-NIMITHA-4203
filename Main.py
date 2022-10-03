@@ -18,8 +18,8 @@ def quick_sort(arr,low,high):
       # index
       pi = partition(arr,low,high)
       # sort the partitions
-      quickSort(arr, low, pi-1)
-      quickSort(arr, pi+1, high)
+      quick_sort(arr, low, pi-1)
+      quick_sort(arr, pi+1, high)
 
 input_data = input()
 data = []
